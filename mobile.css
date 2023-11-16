@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: grey;
+   
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  /*  background-color: rgb(226, 236, 27);*/
+    background: black;
+}
+
+.container h2{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid yellow ;
+    background-color: rgb(226, 236, 27);
+    background-clip: border-box;
+}
+
+.bg-items{
+    flex-basis: 23%;  /*gives width*/
+    margin: 10px 0px;    /* top & bottom : 10px   ,  left & right : 0px; */
+    text-align: center;
+    padding: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px yellow;   /* x-axis   y-axis  blur  default_color_in_all_side*/ 
+}
+
+.bg-items h3{
+    padding: 10px 0px;
+}
+
+.bg-items p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+/*.bg-items button{
+    background: white;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    bottom: 25px;
+    align-items: baseline;
+    border: none;
+    color: blue;
+    border-radius: 10px;
+    margin: 10px 0px;
+}*/
+
+.first{
+    background: white;
+    color: blue;
+    padding: 10px 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    align-items: center;
+    height: 25px;
+    bottom: 25px;
+}
+
+.second{
+    background: white;
+    color: blue;
+    padding: 10px 550px;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    justify-content: space-between;
+    border: none; 
+    align-items: center; 
+    height: 25px;
+    bottom: 25px;
+}
+
+.third{
+    background: white;
+    color: blue;
+    padding: 10px 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    border: none;
+    align-items: center; 
+    height: 25px;
+    bottom: 25px; 
+}
+
+.fourth{
+    background: white;
+    color: blue;
+    padding: 10px 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    align-items: center; 
+    height: 25px;
+    bottom: 25px; 
+}
+
+@media only screen and(min-width:200px) and (max-width: 767px){
+     .container{
+        width: 100%;
+        flex-direction: row;
+     }
+     
+}
